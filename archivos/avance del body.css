@@ -1,0 +1,43 @@
+*{
+    border: 1px solid red;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tablas{
+    width: 100%;
+    border: 5px solid black
+}
+#tabla1{
+    margin: 100px 0px 100px 0px;
+    border: 5px solid black;
+}
+}
+#contenido1{
+    margin: 50px 0px 100px 10px;
+}
+body{
+    margin-left: 150px;
+    margin-right: 60px;
+    font-size: 35px;
+}
+h4{
+    margin: 0px 0px 20px 0px;
+}
+#videopopular{
+    height: 550px;
+    color: red ;
+}
+.imagenestabla1{
+    width: 200px;
+    height: 150px
+}
+#corazones1{
+    color: rgba(255, 0, 0, 1)
+}
+#corazones2{
+    color: rgba(255, 0, 0, 0.1)
+}
+#objetivo{
+    background-color: #e6f49a
+}

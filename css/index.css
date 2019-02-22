@@ -1,0 +1,57 @@
+#uno{
+    width: 100%;
+    background-color:white;
+    box-align: center;
+}
+
+#dos{
+    width: 100%;
+    background-color: white;
+}
+
+#codigo{
+    width: 120px;
+    height: 40px;
+}
+
+
+#icono{
+    width: 150px;
+    height: 150px;
+    margin: 10px   auto;
+    display: block;
+}
+
+#titu{
+    text-align: center;
+    color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    text-align: center;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#tab1{
+    width: 100%;
+    text-decoration: none
+
+}
+
+#tab{
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#ubicacion{
+    width: 100px;
+    height: 40px;
+}

@@ -1,0 +1,25 @@
+*{
+   margin: 0;
+   
+}
+
+#btnregistrar{
+    background-color: #0055ff;
+    color: white;
+    padding: 12px;
+    border-radius: 10px 10px 10px 10px ;
+}
+#txtusu{
+    background-color: rgb(162, 241, 137);
+    color: white;
+    padding: 12px;
+    border-radius: 10px 10px 10px 10px ;
+
+}
+
+input{
+    background-color: white;
+    color: blue;
+    border-radius: 10px 10px 10px 10px;
+    padding: 8px;
+}

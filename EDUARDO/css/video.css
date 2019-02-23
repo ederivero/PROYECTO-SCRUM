@@ -1,0 +1,56 @@
+#tab{
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#ubicacion{
+    width: 100px;
+    height: 40px;
+}
+#table1{
+    width: 100%;
+    vertical-align: auto;
+    
+}
+#img1{
+    width: 10px;
+}
+#img2{
+    width: 10px;
+}
+.tb1{
+    margin: auto;
+    width: 80%;
+}
+
+ul {
+    width: 80%;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #EEAABB;
+  }
+  
+  .active {
+      color: black;
+    background-color: gainsboro;
+  }

@@ -9,9 +9,9 @@
 
 <body>
     <table id="tabla1" border-collapse>
-        <thead>
-            <tr>
-                <td colspan="2">
+        <thead class="bordes">
+            <tr class="bordes">
+                <td colspan="2" class="bordes">
                     <div id="objetivo"><b>Objetivo de la web</b>
                         <br>
                         Contribuir al facil acceso de imagenes para el publico
@@ -21,47 +21,29 @@
         </thead>
         <tbody>
             <tr>
-                <td class="bordes">
-                    <img src="../img/academico.jpg" alt="imagen1" 
-                    class="imagenestabla1"></td>
-                <td class="tablas">Academico</td>
+                <td class="bordes" width="200" >
+                    <img src="../img/academico.jpg" alt="imagen1" width="200"
+                ></td>
+                <td class="bordes">Academico</td>
             </tr>
             <tr>
-                <td class="bordes"><img src="../img/profesional.jpg" alt="imagen2" class="imagenestabla1"></td>
-                <td class="tablas">Cultural</td>
+                <td class="bordes"  width="200" >
+                    <img src="../img/profesional.jpg" alt="imagen2" width="200"></td>
+                <td class="bordes">Cultural</td>
             </tr>
         </tbody>
     </table>
-    <table id="tabla1">
-            <thead>
-                <tr>
-                    <td colspan="2">
-                        <div id="objetivo"><b>Objetivo de la web</b>
-                            <br>
-                            Contribuir al facil acceso de imagenes para el publico
-                        </div>
-                    </td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="bordes">
-                        <img src="" alt="imagen1" 
-                        class="imagenestabla1"></td>
-                    <td class="tablas">Academico</td>
-                </tr>
-                <tr>
-                    <td class="bordes"><img src="" alt="imagen2" class="imagenestabla1"></td>
-                    <td class="tablas">Cultural</td>
-                </tr>
-            </tbody>
-        </table>
     <p id="contenido1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur aliquam nobis labore ea quos deserunt, dolorum iusto, incidunt porro cupiditate recusandae eligendi enim voluptate sint commodi, velit iste voluptatem illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum fugit molestiae inventore perferendis ullam quod voluptatum, nihil consequatur commodi animi in totam sit hic maiores minima dolore impedit blanditiis laudantium.</p>
     <table class="tablas">
         <tr height="300px">
             <td id="videopopular"><h4>video popular de hoy:</h4>
-                el video de hoy fue difundido para ejemplificar el motivo principal de nuestra web</td>
-            <td rowspan="2" width="560" ><iframe width="1200px" height="600px" src="https://www.youtube.com/embed/wznh3xPG6kY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+                el video de hoy fue difundido para ejemplificar el motivo principal de nuestra web
+            </td>
+            <td rowspan="2">
+                <div class="videocontainer">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wznh3xPG6kY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </td>
         </tr>
         <tr>
             <td id="corazones1"><div>❤❤❤<a id="corazones2">❤❤</a></div></td>

@@ -1,0 +1,56 @@
+*{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#tabla1{
+    margin: 100px 0px 100px 0px;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+#tabla1, .bordes {
+    border: 2.6px solid black;
+}
+
+#contenido1{
+    margin: 50px 0px 100px 10px;
+}
+body{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 200%;
+}
+h4{
+    margin: 0px 0px 20px 0px;
+}
+#videopopular{
+    height: 300px;
+    color: red ;
+}
+
+#corazones1{
+    color: rgba(255, 0, 0, 1);
+}
+#corazones2{
+    color: rgba(255, 0, 0, 0.3);
+}
+#objetivo{
+    background-color: #e6f49a;
+}
+.videocontainer{
+    position: relative;
+    width: 70%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+.videocontainer iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    box-sizing: border-box;
+}

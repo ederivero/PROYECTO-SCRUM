@@ -1,3 +1,130 @@
+#advertencia {
+    color: red;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+<style>…</style>
+* {
+    margin: 0px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+input {
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#archivo {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+
+<style>…</style>
+#rec {
+    width: 30%;
+}
+<style>…</style>
+input {
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+    padding: 8px;
+}
+<style>…</style>
+* {
+    margin: 0px;
+}
+user agent stylesheet
+textarea:disabled, input:disabled {
+    background-color: rgb(235, 235, 228);
+}
+user agent stylesheet
+input:disabled, textarea:disabled {
+    color: rgb(84, 84, 84);
+    cursor: default;
+}
+user agent stylesheet
+input {
+    padding: 1px 0px;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+
+
+#col1{
+    width: 47%;
+}
+
+#col2{
+    width: 52;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+}
+#sublogo{
+    width: 100%;
+}
+
+
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+#bot{
+    width: 10%;
+    color: midnightblue;
+    
+}
+
+#rec{
+    width: 35%;
+    color: midnightblue;
+}
+
+
+
+
+
 
 #tSubir{
     border-collapse: collapse;

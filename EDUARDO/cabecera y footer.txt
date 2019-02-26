@@ -1,0 +1,93 @@
+    <header>
+        <table id="cabeceraformulario">
+            <tr>
+                <td id="celdaDB" style='text-align:center' rowspan="2">
+                        <a href="../index.html"> <img id="logoDB" src="../img/icono_cabecera.png" alt="" > </a>
+                </td>
+                <td id="celdaPHOTO"> 
+                    <h3>  <a id="PHOTODB" style ="vertical-align:text-top" href="../index.html">PHOTO DB</a> </h3>
+                </td>
+                <td id="celdaCODIGO" style='text-align:right' rowspan="2">
+                    <img id="logoCODIGO" src    ="../img/logo_codigo.PNG" href="../index.html" alt="">
+                </td>
+            </tr>
+            <tr>
+                <td id="celdaREGISTRO" style ="vertical-align:text-top" > 
+                    <a id="txtregistro" href="../views/subir.html">SUBIR VIDEO</a>
+                </td>
+                
+            </tr>
+        </table>
+    </header>
+
+
+
+            <footer>
+                <table id="tab">
+                    <tr>
+                        <td>Codigo Contact</td>
+                        <td>photodb@photodb.com</td>
+                        <td style='text-align:right'>Av. Arces 207      |</td>
+                        <td><img id="ubicacion" src="../img/mapa_footer.png" alt=""></td>
+                    </tr>
+                </table>
+            </footer>
+
+
+
+
+
+#uno{
+    width: 100%;
+    background-color:white;
+    box-align: center;
+}
+
+#dos{
+    width: 100%;
+    background-color: white;
+}
+
+#codigo{
+    width: 120px;
+    height: 40px;
+}
+
+
+#icono{
+    width: 150px;
+    height: 150px;
+    margin: 10px   auto;
+    display: block;
+}
+
+#titu{
+    text-align: center;
+    color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#tab1{
+    width: 100%;
+    text-decoration: none
+
+}
+
+#tab{
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#ubicacion{
+    width: 100px;
+    height: 40px;
+}
+

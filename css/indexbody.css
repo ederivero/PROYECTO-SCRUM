@@ -23,7 +23,7 @@ body{
     margin-right: 60px;
     font-size: 200%;
     
-        background-image: url('./fondo.jpg');
+    background-image: url('../img/fondo.jpg');
         background-size: 100%;
         background-repeat: no-repeat;
     

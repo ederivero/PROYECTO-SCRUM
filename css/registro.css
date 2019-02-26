@@ -1,6 +1,6 @@
 *{
-   margin: 0;
-   
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #btnregistrar{
@@ -16,7 +16,7 @@
     padding: 12px;
     border-radius: 10px 10px 10px 10px ;
     font-size: 100%;
-
+    text-align: center;
 }
 
 input{
@@ -67,8 +67,15 @@ input{
     color: darkcyan; 
     text-align: initial;
 }
-
-
+#headertable{
+    text-align: left;
+    transform: translate(-60px,0px);
+    font-size: 1.5rem;
+}
+#imagenlogo{
+    text-align: right;
+    transform: translate(-70px,0px);
+}
 
 #ubicacion{
     width: 100px;
@@ -82,12 +89,11 @@ input{
     color: darkcyan;
 }
 
-#celdaformulario{
-    width: 30%;
-}
-
 #primera{
     width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.2rem;
 }
 
 td{
@@ -98,4 +104,35 @@ td{
 .espacio{
     width: 500px;
     height: 30px;
+}
+
+.tdinputs{
+    width: 50%;
+
+}
+
+.inputs{
+    width: 90%;
+    height: 3rem;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+#terminos{
+    color: grey;
+    font-size: 1.3rem;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+    margin-right: 0px;
+}
+
+#terminosycondiciones{
+    text-decoration: none;
+    color: grey;
+}
+
+#terminosycondiciones:hover{
+    color: darkcyan;
 }

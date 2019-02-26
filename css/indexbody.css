@@ -24,15 +24,18 @@ body{
     font-size: 200%;
 }
 h4{
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
 }
 #videopopular{
-    height: 300px;
+    height: 100px;
     color: red ;
+    margin-bottom: 0;
 }
 
 #corazones1{
     color: rgba(255, 0, 0, 1);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 #corazones2{
     color: rgba(255, 0, 0, 0.3);

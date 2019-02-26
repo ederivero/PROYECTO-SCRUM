@@ -1,0 +1,61 @@
+
+#tSubir{
+    border-collapse: collapse;
+    border: 1px solid black;
+    vertical-align: top;
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+}
+#txtdesc{
+    align-content: center;
+    width: 90%;
+    height: 80px;
+}
+#cola01, #cat01{
+background-color: #CAE7B0;
+}
+#cola02, #cat02{
+    background-color: #ACC2F9;
+}
+#cola03, #cat03{
+    background-color: #FAB2AF;
+}
+#cola01 , #cola02, #cola03{
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-top: 0px;
+}
+#cat02{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.divcontents{
+    margin: auto;
+    width: 80%;
+
+}
+#divbtn{
+    text-align: center;
+}
+.tddesc{
+    text-align: center;
+    align-content: center;
+}
+#btnUpload{
+    background-color: #649D45;
+    color: #FFFFFF;
+    padding: 1% 3%;
+    border: 0px;
+    border-radius: 5px;
+}
+.Cat01{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+
+}
+td{
+    margin: 0%;
+    padding: 0%;
+}

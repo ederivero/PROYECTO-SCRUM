@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/registro.css">
 </head>
+
 <body>
     <header>
         <table id="cabeceraformulario">
@@ -14,131 +16,129 @@
                 <td id="celdaDB" style='text-align:center' rowspan="2">
                     <img id="logoDB" src="../img/icono_cabecera.png" alt="">
                 </td>
-                <td id="celdaPHOTO"> 
-                    <h3>  <a id="PHOTODB" style ="vertical-align:text-top" href="../index.html">PHOTO DB</a> </h3>
+                <td id="celdaPHOTO">
+                    <h3> <a id="PHOTODB" style="vertical-align:text-top" href="../index.html">PHOTO DB</a> </h3>
                 </td>
                 <td id="celdaCODIGO" style='text-align:right' rowspan="2">
-                    <img id="logoCODIGO" src    ="../img/logo_codigo.PNG" href="../index.html" alt="">
+                    <img id="logoCODIGO" src="../img/logo_codigo.PNG" href="../index.html" alt="">
                 </td>
             </tr>
             <tr>
-                <td id="celdaREGISTRO" style ="vertical-align:text-top" > 
+                <td id="celdaREGISTRO" style="vertical-align:text-top">
                     <a id="txtregistro" href="../views/registro.html">REGISTRO</a>
                 </td>
-                
+
             </tr>
         </table>
     </header>
-
+    <br>
     <hr>
-    <table id="primera">
-    <tr>
-    <td></td>
-    <td id="celdaformulario">
-    <table >
-    <tablehead >
-            <tr>
-                    <th></th>
-                    <th></th>
-                    <th><img src="https://img.icons8.com/ios/50/000000/camera.png"></th>
-                    <th style='text-align:center'><h1>Foto DB</h1></th>
-                    <th>   </th>
-                    <th></th>
-                </tr>
-        
-            </tablehead>
-            <br>
-                <tablebody id="cuerpoformulario">
+    <br>
+
+                <table id="primera">
+                    <tablehead>
+                        <tr>
+                            <th colspan="2" id="imagenlogo"><img src="https://img.icons8.com/ios/50/000000/camera.png" ></th>
+                            <th colspan= "2" id="headertable">
+                                <h1>Foto DB</h1>
+                            </th>
+                            <th> </th>
+                            <th></th>
+                        </tr>
+
+                    </tablehead>
+                    <br>
+                    <tablebody id="cuerpoformulario">
 
                         <tr>
-                                <td></td>
-                                <td colspan="4" ><center><input type="text" id="txtusu" placeholder="USUARIO" ></center></td>
-                            
-                                <td></td>
-                            </tr>
+                            <td colspan="4">
+                                <center><input type="text" id="txtusu" placeholder="USUARIO"></center>
+                            </td>
+                        </tr>
                         <tr class="espacio">
                             <td></td>
                         </tr>
-                    <tr>
-                        <td></td>
-                        <td><label for="nombre">Nombres</label></td>
-                        <td></td>
-                        <td><label for="apellido">Apellidos</label></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><input type="text"name="nombre" id="nombre"></td>
-                        <td></td>
-                        <td><input type="text"name="nombre" id="apellido"></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><label for="email">Correo Electrónico</label></td>
-                        <td></td>
-                        <td><label for="password">Contraseña</label></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><input type="email" id="email"></td>
-                        <td></td>
-                        <td><input type="password"id="password"></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><label for="cpassword">Confirmar Contraseña</label></td>
-                        <td></td>
-                        <td><label for="edad">Edad</label></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><input type="text" id="cpassword"></td>
-                        <td></td>
-                        <td><input type="number" id="edad"></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><label for="telefono">Telefono</label></td>
-                        <td></td>
-                        <td><label for="ciudad">Ciudad</label></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td><input type="char"id="telefono"></td>
-                        <td></td>
-                        <td><select name="ciudad" id="ciudad">
-                            <option value="0">Selecione...</option>
-                            
-                            <option value="1">Arequipa</option>
-                            <option value="2">Lima</option>
-                            <option value="3">Piura</option>
-                        </select></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td colspan="2"><input type="checkbox" name="click" id="click"><label for="click">Terminos y condiciones</label> </td>
-                        
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    
-                    <tr class="espacio">
+                        <tr>
+                            <td></td>
+                            <td><label for="nombre">Nombres</label></td>
+                            <td></td>
+                            <td><label for="apellido">Apellidos</label></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="tdinputs"><input type="text" name="nombre" id="nombre" class="inputs"></td>
+                            <td></td>
+                            <td class="tdinputs"><input type="text" name="nombre" id="apellido" class="inputs"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label for="email">Correo Electrónico</label></td>
+                            <td></td>
+                            <td><label for="password">Contraseña</label></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="tdinputs"><input type="email" id="email" class="inputs"></td>
+                            <td></td>
+                            <td class="tdinputs"><input type="password" id="password" class="inputs"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label for="cpassword">Confirmar Contraseña</label></td>
+                            <td></td>
+                            <td><label for="edad">Edad</label></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="tdinputs"><input type="text" id="cpassword" class="inputs"></td>
+                            <td></td>
+                            <td class="tdinputs"><input type="number" id="edad" class="inputs"></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label for="telefono">Telefono</label></td>
+                            <td></td>
+                            <td><label for="ciudad">Ciudad</label></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td class="tdinputs"><input type="char" id="telefono" class="inputs"></td>
+                            <td></td>
+                            <td class="tdinputs"><select name="ciudad" id="ciudad" class="inputs">
+                                    <option value="0">Selecione...</option>
+                                    <option value="1">Arequipa</option>
+                                    <option value="2">Lima</option>
+                                    <option value="3">Piura</option>
+                                </select></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td colspan="2"><input type="checkbox" name="click" id="click">
+                                <label for="click" id= "terminos">
+                                    He leido y acepto los<a id="terminosycondiciones" href="./terminosycondiciones">Terminos y condiciones</a>
+                                </label>
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="espacio">
                             <td></td>
                             <td></td>
                             <td></td>
@@ -146,35 +146,7 @@
                             <td></td>
                             <td></td>
                         </tr>
-
-                     <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                     </tr>
-
-                    <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                    </tr>
-
-                    <tr>
-                        <td></td>
-                        
-                        <td colspan="3"> <centeR> <button id="btnregistrar">CREAR CUENTA</button></centeR></td>
-                    
-                        <td></td>
-                        <td></td>
-                    </tr>
-
-                    <tr class="espacio">
+                        <tr>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -182,28 +154,47 @@
                             <td></td>
                             <td></td>
                         </tr>
-
-
-
-                </tablebody>
-            </table>
-            </td>
-            <td></td> 
-        </tr>
-        </table>
-            
-            <hr>
-            <footer>
-                <table id="tab">
-                    <tr>
-                        <td>Codigo Contact</td>
-                        <td>photodb@photodb.com</td>
-                        <td style='text-align:right'>Av. Arces 207      |</td>
-                        <td><img id="ubicacion" src="../img/mapa_footer.png" alt=""></td>
-                    </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td colspan="3">
+                                <centeR> <button id="btnregistrar">CREAR CUENTA</button></centeR>
+                            </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr class="espacio">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tablebody>
                 </table>
-            </footer>
 
-            <hr>
+
+    <hr>
+    <footer>
+        <table id="tab">
+            <tr>
+                <td>Codigo Contact</td>
+                <td>photodb@photodb.com</td>
+                <td style='text-align:right'>Av. Arces 207 |</td>
+                <td><img id="ubicacion" src="../img/mapa_footer.png" alt=""></td>
+            </tr>
+        </table>
+    </footer>
+
+    <hr>
 </body>
+
 </html>

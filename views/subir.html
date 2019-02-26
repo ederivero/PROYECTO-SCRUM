@@ -8,57 +8,31 @@
 </head>
 
 <body>
-
-        <table id="sublogo">
-                <tbody><tr> 
-                    <td id="col1">
-                        <div id="logonube" style="text-align:right">
-                        <img id="nube" src="../img/nubesubir.PNG" alt="">
-                        </div>
+     <!--Cabecera-->
+     <header  id="cabeceraformulario">
+            <table>
+                <tr>
+                    <td id="celdaDB" style='text-align:center' rowspan="2">
+                            <a href="../index.html"> <img id="logoDB" src="../img/icono_cabecera.png" alt="" > </a>
                     </td>
-                    <td id="col2">
-                        <div id="logonube1" style="text-align:left">
-                        <h2>  <p id="subvi2">SUBIR VIDEO</p> </h2>
-                        </div>
+                    <td id="celdaPHOTO"> 
+                        <h3>  <a id="PHOTODB" style ="vertical-align:text-top" href="../index.html">PHOTO DB</a> </h3>
+                    </td>
+                    <td id="celdaCODIGO" style='text-align:right' rowspan="2">
+                        <img id="logoCODIGO" src    ="../img/logo_codigo.PNG" href="../index.html" alt="">
                     </td>
                 </tr>
-            </tbody>
-        </table>
-
-    <br>
-    <br>
-
-    <form action="./procesar.html" method="GET">
-        <div id="archivo">
-            <!-- text=> Ingreso de Texto -->
-            <label for="idnombres">ARCHIVO:</label>
-            <input id="rec" type="text" name="nombres" disabled="”disabled">
-            <input id="bot" type="submit" value="Cargar Archivo">
-        </div>
-
-        <br>
-
-        <div id="advertencia" style="text-align:center">
-            <p id="">*El archivo a subir tiene que tener máximo 250 Mb</p>
-        </div>
-
-        <br>
-
-        <div style="text-align:center">
-            <input type="checkbox" name="terminos" value="ter" id="terminos" required="">
-            <label id="acep" for="terminos">Acepto terminos y condiciones</label>
-            
-        </div>
-
-
-
-    </form>
-
-    <br>
-    <br>
-
-
-
+                <tr>
+                    <td id="celdaREGISTRO" style ="vertical-align:text-top" > 
+                        <a id="txtregistro" href="../views/subir.html">SUBIR VIDEO</a>
+                    </td>
+                    
+                </tr>
+                
+            </table>
+            <hr>
+        </header>
+        <!--fin cabecera-->
     <table id="tSubir" >
         <tr>
             <td>
@@ -101,6 +75,19 @@
         <input type="button" name="" value="SUBIR VIDEO" id="btnUpload">
     </div>
 
+
+     <!--pide de pagina-->
+  <footer>
+        <table id="tab">
+            <tr>
+                <td>Codigo Contact</td>
+                <td>photodb@photodb.com</td>
+                <td style='text-align:right'>Av. Arces 207      |</td>
+                <td><img id="ubicacion" src="../img/mapa_footer.png" alt=""></td>
+            </tr>
+        </table>
+    </footer>
+    <!--Fin de pie de pagina-->
 </body>
 
 </html>

@@ -1,3 +1,137 @@
+body{
+    
+    background-image: url('../img/fondo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+#advertencia {
+    color: red;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+<style>…</style>
+* {
+    margin: 0px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+input {
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+#archivo {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+
+<style>…</style>
+#rec {
+    width: 30%;
+}
+<style>…</style>
+input {
+    background-color: white;
+    color: blue;
+    border-radius: 10px;
+    padding: 8px;
+}
+<style>…</style>
+* {
+    margin: 0px;
+}
+user agent stylesheet
+textarea:disabled, input:disabled {
+    background-color: rgb(235, 235, 228);
+}
+user agent stylesheet
+input:disabled, textarea:disabled {
+    color: rgb(84, 84, 84);
+    cursor: default;
+}
+user agent stylesheet
+input {
+    padding: 1px 0px;
+}
+user agent stylesheet
+input {
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+
+
+#col1{
+    width: 47%;
+}
+
+#col2{
+    width: 52;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+}
+#sublogo{
+    width: 100%;
+}
+
+
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+
+#bot{
+    width: 10%;
+    color: midnightblue;
+    
+}
+
+#rec{
+    width: 35%;
+    color: midnightblue;
+}
+
+
+
+
+
 
 #tSubir{
     border-collapse: collapse;
@@ -59,3 +193,93 @@ td{
     margin: 0%;
     padding: 0%;
 }
+
+
+
+
+
+#logoCODIGO{
+    width: 170px;
+    height: 60px;
+}
+#cabeceraformulario{
+    margin: auto;
+    width: 80%;
+}
+#logoDB{
+    width: 80px;
+    height: 80px;
+}
+
+#celdaDB{
+    width: 5%;
+    
+}
+
+#PHOTODB{
+    font-size: 180%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#celdaPHOTO{
+    height: 20%;
+}
+#celdaREGISTRO{
+    width: 50%;
+}
+#uno{
+    width: 100%;
+    background-color:white;
+    box-align: center;
+}
+
+#dos{
+    width: 100%;
+    background-color: white;
+}
+
+#codigo{
+    width: 120px;
+    height: 40px;
+}
+
+
+#icono{
+    width: 150px;
+    height: 150px;
+    margin: 10px   auto;
+    display: block;
+}
+
+#titu{
+    text-align: center;
+    color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#tab1{
+    width: 100%;
+    text-decoration: none
+
+}
+
+#tab{
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#ubicacion{
+    width: 100px;
+    height: 40px;
+}
+

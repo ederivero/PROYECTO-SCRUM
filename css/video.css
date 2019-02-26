@@ -1,3 +1,10 @@
+body{
+    
+    background-image: url('../img/fondo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
 *{
     font-size: 17Px;
 }
@@ -65,3 +72,90 @@
     margin: auto;
     width: 80%;
 }
+
+
+#logoCODIGO{
+    width: 170px;
+    height: 60px;
+}
+#cabeceraformulario{
+    margin: auto;
+    width: 80%;
+}
+#logoDB{
+    width: 80px;
+    height: 80px;
+}
+
+#celdaDB{
+    width: 5%;
+    
+}
+
+#PHOTODB{
+    font-size: 180%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#celdaPHOTO{
+    height: 20%;
+}
+#celdaREGISTRO{
+    width: 50%;
+}
+#uno{
+    width: 100%;
+    background-color:white;
+    box-align: center;
+}
+
+#dos{
+    width: 100%;
+    background-color: white;
+}
+
+#codigo{
+    width: 120px;
+    height: 40px;
+}
+
+
+#icono{
+    width: 150px;
+    height: 150px;
+    margin: 10px   auto;
+    display: block;
+}
+
+#titu{
+    text-align: center;
+    color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#tab1{
+    width: 100%;
+    text-decoration: none
+
+}
+
+#tab{
+    width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#ubicacion{
+    width: 100px;
+    height: 40px;
+}
+

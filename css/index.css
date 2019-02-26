@@ -1,3 +1,10 @@
+body{
+    
+    background-image: url('./fondo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
 #uno{
     width: 100%;
     background-color:white;

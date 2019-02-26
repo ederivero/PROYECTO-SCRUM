@@ -22,6 +22,12 @@ body{
     margin-left: 60px;
     margin-right: 60px;
     font-size: 200%;
+    
+        background-image: url('./fondo.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    
+    
 }
 h4{
     margin: 0px 0px 0px 0px;

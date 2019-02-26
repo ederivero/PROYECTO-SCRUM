@@ -1,3 +1,10 @@
+body{
+    
+    background-image: url('./fondo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
 #advertencia {
     color: red;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;

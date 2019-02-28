@@ -1,76 +1,76 @@
 * {
     margin: 0px;
     padding: 0px;
-   }
-   #cabeceralogo {
+}
+#cabeceralogo {
     width: 96%;
     height: 150px;
     padding: 0% 2%;
     background-color: #0F76A0;
-   }
-   #cabeceralogo > div {
+}
+#cabeceralogo > div {
     width: 960px;
     margin: 0px auto;
     padding-top: 45px;
-   }
-   #cabeceralogo h1 {
+}
+#cabeceralogo h1 {
     font: bold 54px Arial, sans-serif;
     color: #FFFFFF;
-   } 
-   #menuprincipal {
+} 
+#menuprincipal {
     width: 96%; 
     height: 50px;
     padding: 0% 2%;
     background-color: #9FC8D9;
     border-top: 1px solid #094660;
     border-bottom: 1px solid #094660;
-   }
-   #menuprincipal > div {
+}
+#menuprincipal > div {
     width: 960px;
     margin: 0px auto;
-   }
-   #menuprincipal li {
+}
+#menuprincipal li {
     display: inline-block;
     height: 35px;
     padding: 15px 10px 0px 10px;
     margin-right: 5px;
-   }
-   #menuprincipal li:hover {
+}
+#menuprincipal li:hover {
     background-color: #6FACC6;
-   }
-   #menuprincipal a {
+}
+#menuprincipal a {
     font: bold 18px Arial, sans-serif;
     color: #333333;
     text-decoration: none;
-   } 
-   main {
+} 
+main {
     width: 96%;
     padding: 2%;
     background-image: url("fondo.png");
-   }
-   main > div {
+}
+main > div {
     width: 960px;
     margin: 0px auto;
-   } 
-   #articulosprincipales {
+} 
+#articulosprincipales {
     float: left;
     width: 620px; 
     padding-top: 30px;
     background-color: #FFFFFF;
     border-radius: 10px;
-   }
-   #infoadicional {
+}
+#infoadicional {
     float: right;
     width: 280px;
     padding: 20px;
     background-color: #E7F1F5;
     border-radius: 10px;
-   }
-   #infoadicional h1 {
+}
+#infoadicional h1 {
     font: bold 18px Arial, sans-serif;
     color: #333333;
     margin-bottom: 15px;
-   }
+}
    .recuperar {
     clear: both;
    }

@@ -89,6 +89,25 @@ function check() {
     document.getElementById("respuesta").value = respuesta1;
 }
 
+
+//Ejercicio 19
+var lado, areac ;
+lado = (prompt("Ingrese lado de cuadrado "));
+areac=lado**2;
+console.log('El area del cuadrado es:'+ areac );
+
+
+
+
+//Ejercicio 20
+var examen1, examen2 , examen3, promedio;
+examen1 = parseFloat(prompt("Ingrese nota del examen 1 "));
+examen2 = parseFloat(prompt("Ingrese nota del examen 2 "));
+examen3 = parseFloat(prompt("Ingrese nota del examen 3 "));
+
+promedio=(examen1*0.25)+(examen2*0.25)+(examen3*0.5);
+console.log('Promedio final:'+ promedio );
+
 // 20
 
 var nota_1 = 14;

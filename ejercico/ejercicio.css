@@ -46,7 +46,7 @@
    main {
     width: 96%;
     padding: 2%;
-    background-image: url("fondo.png");
+    background-image: url("http://placehold.it/500x500/");
    }
    main > div {
     width: 960px;

@@ -48,6 +48,29 @@ var costoxm3 = 5.40,
     m3 = 50,
     total = costoxm3 * m3;
 console.log("El costo por " + m3 + "m3 es de S/." + total);
+// 11
+console.log("ejercicio 11");
+var KW = 45, precioxKW = 23;
+console.log("se usaron "+KW+" kilowatts");
+var cobrototal = precioxKW*KW;
+console.log("precio a pagar = "+cobrototal+ " soles");
+// 12
+console.log("ejercicio 12");
+var precio = 100, preciocondescuento = precio*0.8, IVA = precio*0.15, preciototal = preciocondescuento+IVA;
+console.log("el precio con descuento es = "+ preciocondescuento);
+console.log("el precio final es = "+ preciototal);
+// 13
+console.log("ejercicio 13");
+var sueldo = 2500, ahorroxsemana = sueldo*0.15, ahorroxmes =ahorroxsemana*4,ahorroxanio= ahorroxmes*12;
+console.log("se ahorran "+ahorroxanio+ " soles x anio")
+// 14
+console.log("ejercicio 14");
+var costohotelxdia = 120, costocomidaxdia = 80, pesosxdia = 100,dias =20, cheque = dias*(costocomidaxdia+costohotelxdia+pesosxdia)
+console.log("precio del hotel por dia = "+ costohotelxdia);
+console.log("precio de comida por dia = "+ costocomidaxdia);
+console.log("dinero diario = "+pesosxdia);
+console.log("dias = "+dias);
+console.log("cheque a pagar = "+ cheque);
 //15
 var corriente=50,
 resistencia=4,

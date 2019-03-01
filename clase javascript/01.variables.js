@@ -1,4 +1,4 @@
-//01
+﻿//01
 var base = 3,
     altura = 4,
     area = (base * altura) / 2;
@@ -88,3 +88,50 @@ function check() {
     var respuesta1=(base*altura)/2;
     document.getElementById("respuesta").value = respuesta1;
 }
+
+// 20
+
+var nota_1 = 14;
+var nota_2 = 14;
+var nota_3 = 20;
+var cant_notas = 3;
+
+var porcent_12 = 25;
+var porcent_3 = 50;
+var porcent_total =100;
+
+var peso_1 = (nota_1*porcent_12)/porcent_total;
+var peso_2 = (nota_2*porcent_12)/porcent_total;
+var peso_3 = (nota_3*porcent_3)/porcent_total;
+
+var promedio = (peso_1+peso_2+peso_3);
+
+console.log( "Sus notas son las siguientes: " +
+    "Nota 1: " + nota_1 + " , Nota 2: " + nota_2 + " , Nota 3: " + nota_3 + ". Su promedio es de " + promedio);
+
+
+
+
+
+// 22 
+var minuto = 0.5;
+var cantidad = 15;
+var cobro = minuto*cantidad;
+
+console.log("Su llamada tuvo una duración de " +  cantidad + " minutos " +
+            " ,el costo por minuto es de " + minuto + " soles pague el monto de " + cobro + "soles"
+            );
+
+
+
+
+// 23 Hotel
+
+var costo_hora = 10;
+var cantidad_horas = 15;
+var cobro = costo_hora*cantidad_horas;
+
+console.log("Estancia " + cantidad_horas + " horas"+ " costo de hora " + costo_hora +
+            " ,el costo total es de " + cobro + " soles."
+            );
+

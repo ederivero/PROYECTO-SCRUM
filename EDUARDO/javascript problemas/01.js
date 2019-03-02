@@ -44,10 +44,10 @@ function eje20() {
 //21
 function eje21() {
     var pagomin = 0,//calc
-        montocompra = document.getElementById("txt21montocompra"),
-        pagocorteactual = document.getElementById("txt21pagocorteactual"),
-        pagocorteanterior = document.getElementById("txt21pagocorteanterior"),
-        saldoant = document.getElementById("txt21saldoant"),
+        montocompra = document.getElementById("txt21montocompra").value,
+        pagocorteactual = document.getElementById("txt21pagocorteactual").value,
+        pagocorteanterior = document.getElementById("txt21pagocorteanterior").value,
+        saldoant = document.getElementById("txt21saldoant").value,
         pagoparanogenerarintereses = 0, //calc
         intereses = 0,
         saldoact = montocompra - pagocorteanterior - saldoant;
@@ -67,10 +67,10 @@ function eje21() {
     else {
         intereses = 0;
     }
-    document.getElementById("resultado21").innerHTML = `Valor de los intereses: ${intereses}. 
-    Valor de pago minimo: ${pagomin}. 
-    Valor de pago para no generar intereses: ${pagoparanogenerarintereses}. 
-    Valor de saldo actual: ${saldoact}`;
+    document.getElementById("resultado21").innerHTML = `Valor de los intereses: ${intereses}. <br>
+    Valor de pago minimo: ${pagomin}. <br>
+    Valor de pago para no generar intereses: ${pagoparanogenerarintereses}. <br>
+    Valor de saldo actual: ${saldoact} <br>`;
 }
 
 

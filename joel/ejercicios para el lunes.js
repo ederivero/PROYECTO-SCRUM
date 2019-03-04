@@ -34,19 +34,22 @@ if (Presupuesto > 251) {
 }
 // 4
 console.log("ejercicio 4");
-var horas = 15;
+
+
+var horas, cobro = 0;
 if (horas <= 2) {
-    console.log(horas * 5.00)
+    cobro = horas * 5;
 }
 if (horas > 2 && horas <= 5) {
-    console.log(horas * 4.00)
+    cobro = 2 * 5 + (horas - 3) * 4;
 }
 if (horas > 5 && horas <= 10) {
-    console.log(horas * 3.00)
+    cobro = 2 * 5 + 3 * 4 + (horas - 5) * 3;
 }
 if (horas > 10) {
-    console.log(horas * 2.00)
+    cobro = 2 * 5 + 3 * 4 + 3 * 5 + (horas - 10) * 2;
 }
+console.log(`El valor de cobro es ${cobro}`);
 // 5
 console.log("ejercicio 5");
 var edad1 = 18, edad2 = 20, edad3 = 30;
@@ -397,7 +400,7 @@ if (pagocorteactual < pagoparanogenerarintereses) {
 else {
     intereses = 0;
 }
-console.log( `Valor de los intereses: ${intereses}. 
+console.log(`Valor de los intereses: ${intereses}. 
 Valor de pago minimo: ${pagomin}.
 Valor de pago para no generar intereses: ${pagoparanogenerarintereses}.
 Valor de saldo actual: ${saldoact} `);

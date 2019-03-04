@@ -259,7 +259,7 @@ if (nota == 9) {
 if (nota == 8) {
     calificacion = "C";
 }
-if (nota == 8 || nota == 7) {
+if (nota == 7 || nota == 6) {
     calificacion = "D";
 }
 if (nota >= 0 && nota <= 5) {

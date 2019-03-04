@@ -35,14 +35,16 @@ if (Presupuesto > 251) {
 // 4
 console.log("ejercicio 4");
 var horas = 15;
+
 if (horas <= 2) {
     console.log(horas * 5.00)
 }
 if (horas > 2 && horas <= 5) {
-    console.log(horas * 4.00)
+    console.log(10 +(exceso*4))
 }
 if (horas > 5 && horas <= 10) {
-    console.log(horas * 3.00)
+    exceso1= (horas-5)
+    console.log((10 + 12 (exceso*3)))
 }
 if (horas > 10) {
     console.log(horas * 2.00)

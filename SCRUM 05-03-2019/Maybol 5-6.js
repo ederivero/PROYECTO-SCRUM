@@ -1,9 +1,9 @@
-//dia
+//problema 5 numeros a multiplicar 1-9
 var numero=0;
 numero=parseInt(prompt(`ingrese un numero para mostrarle 
     que dia de la semana es: `))
   
-//problema 5 numeros a multiplicar 1-9
+
 
  var numero=parseInt(prompt("ingrese el numero que desea multiplicar"));
 var cont=0;

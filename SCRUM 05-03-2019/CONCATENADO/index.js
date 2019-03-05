@@ -50,16 +50,16 @@ function prob03() {
 }
 function prob04() {
     var n = document.getElementById("n41").value;
-
+    var caracter=String.fromCharCode(n+64) ;
     switch (true) {
         case n == 1 || n == 5 || n == 9 || n == 15 || n == 21:
-            document.getElementById("resultado04").innerHTML = "=> Es una vocal";
+            document.getElementById("resultado04").innerHTML = caracter+"=> Es una vocal";
             break;
         case n > 0 && n < 27:
-            document.getElementById("resultado04").innerHTML = "=> Es una consonante";
+            document.getElementById("resultado04").innerHTML =caracter+"=> Es una consonante";
             break;
         default:
-            document.getElementById("resultado04").innerHTML = n + " => Es un numero invalido";
+            document.getElementById("resultado04").innerHTML = caracter+" => No es consonante ni voca";
     }
 }
 function prob05() {

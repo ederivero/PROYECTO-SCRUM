@@ -10,7 +10,7 @@ namespace ConsoleApp6
 {
     class Program
     {
-        private static string url = "C:\\Users\\Tecsup\\Desktop\\BD.txt";
+        public static string url = "C:/Users/user/Documents/github/BD.txt";
         static Cuenta cuenta;
         static void Main(string[] args)
         {

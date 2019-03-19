@@ -10,36 +10,85 @@ namespace ConsoleApp6
 {
     class Program
     {
-        public static string url = "C:/Users/user/Documents/github/BD.txt";
+        public static string url = "C:/Users/Tecsup/Downloads/bd.txt";
         static Cuenta cuenta;
         static void Main(string[] args)
         {
-            Ingresar();
+            Console.WriteLine("Ingrese su DNI");
+            string dni = Console.ReadLine();
+            Program p = new Program();
+            p.Ingresar(dni,0);
+        }
+        static void Guardar(string[] arreglo)
+        {
+            File.Delete(url);
+            if (arreglo.Length > 1)
+            {
+                using (StreamWriter writer = File.CreateText(url))
+                {
+                    for (int i = 0; i < arreglo.Length; i++)
+                    {
+                        writer.WriteLine(arreglo[i]);
+
+                    }
+                }
+            }
+            try
+            {
+                StreamWriter sw = new StreamWriter(url, false, Encoding.ASCII);
+                for (int i = 0; i < arreglo.Length; i++)
+                {
+                    sw.WriteLine(arreglo[i]);
+
+                }
+                sw.Close();
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error");
+
+            }
         }
 
-        static void Ingresar()
+        public void Ingresar(string dni,int bandera)
         {
             int cont = 0;
             string[] strLineas = File.ReadAllLines(url);
+            
             string[] campos;
             int x = 1;
             do
             {
-                Console.WriteLine("Ingrese su DNI");
-                string dni = Console.ReadLine();
+                
+                int i = 0;
                 foreach (string linea in strLineas)
                 {
                     campos = linea.Split(",".ToCharArray());
                     Cliente cliente;
                     if (campos[0] == dni)
                     {
+
                         cliente = new Cliente(campos[0], campos[1], campos[2]);
-                        cuenta = new Cuenta(campos[3], double.Parse(campos[4]), char.Parse(campos[5]));
-                        Menu();
+                        cuenta = new Cuenta(campos[3], double.Parse(campos[4]), char.Parse(campos[5]),url);
+                        if (bandera == 0)
+                        {
+                            Menu();
+
+                        }
+                        else
+                        {
+                            double a = cuenta.transferencia();
+                            cuenta.Depositar(a);
+
+                            //Guardar(strLineas);
+                        }
+                        strLineas[i] = campos[0] + "," + campos[1] + "," + campos[2] + "," + campos[3] + "," + cuenta.Monto + "," + campos[5];
                         cont++;
                         x = 0;
                         
                     }
+                    i++;
 
                 }
                 if (cont == 0)
@@ -49,6 +98,8 @@ namespace ConsoleApp6
                     Console.WriteLine("-----------------------------");
                 }
             } while (x == 1);
+
+            Guardar(strLineas);
 
         }
         static void Menu()
@@ -89,7 +140,7 @@ namespace ConsoleApp6
                         break;
 
                 }
-            } while (opc > 4 || opc <= 0);
+            } while (opc != 0);
 
         }
     }

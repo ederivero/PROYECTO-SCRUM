@@ -1,0 +1,11 @@
+c:\users\ederi\source\repos\Banco\Banco\bin\Debug\netcoreapp2.1\Banco.deps.json
+c:\users\ederi\source\repos\Banco\Banco\bin\Debug\netcoreapp2.1\Banco.runtimeconfig.json
+c:\users\ederi\source\repos\Banco\Banco\bin\Debug\netcoreapp2.1\Banco.runtimeconfig.dev.json
+c:\users\ederi\source\repos\Banco\Banco\bin\Debug\netcoreapp2.1\Banco.dll
+c:\users\ederi\source\repos\Banco\Banco\bin\Debug\netcoreapp2.1\Banco.pdb
+c:\users\ederi\source\repos\Banco\Banco\obj\Debug\netcoreapp2.1\Banco.csprojAssemblyReference.cache
+c:\users\ederi\source\repos\Banco\Banco\obj\Debug\netcoreapp2.1\Banco.csproj.CoreCompileInputs.cache
+c:\users\ederi\source\repos\Banco\Banco\obj\Debug\netcoreapp2.1\Banco.AssemblyInfoInputs.cache
+c:\users\ederi\source\repos\Banco\Banco\obj\Debug\netcoreapp2.1\Banco.AssemblyInfo.cs
+c:\users\ederi\source\repos\Banco\Banco\obj\Debug\netcoreapp2.1\Banco.dll
+c:\users\ederi\source\repos\Banco\Banco\obj\Debug\netcoreapp2.1\Banco.pdb

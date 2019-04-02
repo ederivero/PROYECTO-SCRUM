@@ -1,0 +1,5 @@
+#img            {cursor:crosshair;border:1px solid gray;}
+#square         {position:absolute;width:100px;height:100px;overflow: hidden; border:1px solid white;cursor:crosshair;}
+#square img     {position: relative;}
+a               {text-decoration: none; font-family: Arial, Helvetica, sans-serif; font-size: 30px;}
+#texto          {margin: 0 auto; width: 60%; align-content: center}
